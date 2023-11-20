@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <sub_node name="ASM0001.ASM" asm="true">
+        <constrants_group>
+            <constrant1 type="MATE">
+                <constrant_component1>
+                    <auxiliary_file>PIN.step</auxiliary_file>
+                    <reconstructed_element type="Plane">
+                        <base_elem name="origin" type="Point">
+                            <x>0</x>
+                            <y>0</y>
+                            <z>0</z>
+                        </base_elem>
+                        <base_elem name="normal" type="Vector">
+                            <x>1</x>
+                            <y>0</y>
+                            <z>0</z>
+                        </base_elem>
+                    </reconstructed_element>
+                </constrant_component1>
+                <constrant_component2>
+                    <auxiliary_file>SUB_ASM1.ASM</auxiliary_file>
+                    <reconstructed_element type="Plane">
+                        <base_elem name="origin" type="Point">
+                            <x>0</x>
+                            <y>0</y>
+                            <z>0</z>
+                        </base_elem>
+                        <base_elem name="normal" type="Vector">
+                            <x>1</x>
+                            <y>0</y>
+                            <z>0</z>
+                        </base_elem>
+                    </reconstructed_element>
+                </constrant_component2>
+            </constrant1>
+        </constrants_group>
+        <sub_node name="SUB_ASM1.ASM" asm="true">
+            <constrants_group>
+                <constrant1 type="MATE">
+                    <constrant_component1>
+                        <auxiliary_file>CYLINDER.step</auxiliary_file>
+                        <reconstructed_element type="Plane">
+                            <base_elem name="origin" type="Point">
+                                <x>0</x>
+                                <y>0</y>
+                                <z>0</z>
+                            </base_elem>
+                            <base_elem name="normal" type="Vector">
+                                <x>1</x>
+                                <y>0</y>
+                                <z>0</z>
+                            </base_elem>
+                        </reconstructed_element>
+                    </constrant_component1>
+                    <constrant_component2>
+                        <auxiliary_file>PIN.step</auxiliary_file>
+                        <reconstructed_element type="Plane">
+                            <base_elem name="origin" type="Point">
+                                <x>0</x>
+                                <y>0</y>
+                                <z>0</z>
+                            </base_elem>
+                            <base_elem name="normal" type="Vector">
+                                <x>1</x>
+                                <y>0</y>
+                                <z>0</z>
+                            </base_elem>
+                        </reconstructed_element>
+                    </constrant_component2>
+                </constrant1>
+            </constrants_group>
+            <sub_node name="PIN.PRT" asm="false">
+                <Init_Component_Position>
+                    <auxiliary_file>PIN.step</auxiliary_file>
+                    <space_matrix>
+                        <x1>0</x1>
+                        <x2>0</x2>
+                        <x3>0</x3>
+                        <y1>0</y1>
+                        <y2>0</y2>
+                        <y3>0</y3>
+                        <z1>0</z1>
+                        <z2>0</z2>
+                        <z3>0</z3>
+                    </space_matrix>
+                </Init_Component_Position>
+            </sub_node>
+            <sub_node name="CYLINDER.PRT" asm="false">
+                <Init_Component_Position>
+                    <auxiliary_file>CYLINDER.step</auxiliary_file>
+                    <space_matrix>
+                        <x1>0</x1>
+                        <x2>0</x2>
+                        <x3>0</x3>
+                        <y1>0</y1>
+                        <y2>0</y2>
+                        <y3>0</y3>
+                        <z1>0</z1>
+                        <z2>0</z2>
+                        <z3>0</z3>
+                    </space_matrix>
+                </Init_Component_Position>
+            </sub_node>
+        </sub_node>
+        <sub_node name="PIN.PRT" asm="false">
+            <Init_Component_Position>
+                <auxiliary_file>PIN.step</auxiliary_file>
+                <space_matrix>
+                    <x1>0</x1>
+                    <x2>0</x2>
+                    <x3>0</x3>
+                    <y1>0</y1>
+                    <y2>0</y2>
+                    <y3>0</y3>
+                    <z1>0</z1>
+                    <z2>0</z2>
+                    <z3>0</z3>
+                </space_matrix>
+            </Init_Component_Position>
+        </sub_node>
+    </sub_node>
+</root>
